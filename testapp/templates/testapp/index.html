@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テストWebアプリ</title>
+</head>
+<body>
+    <h1>測定値を入力してください</h1>
+    <form action="/submit" method="POST">
+        <p>
+        <label for="s_press">収縮期血圧(mmHg)：</label>
+        <input name="s_press"></input>
+        </p>
+
+        <p>
+        <label for="d_press">拡張期血圧(mmHg)：</label>
+        <input name="d_press"></input>
+        </p>
+
+        <p>
+        <label for="heart_rate">心拍数：</label>
+        <input name="heart_rate"></input>
+        </p>
+
+        <p>
+        <label for="b_temperature">体温(℃)：</label>
+        <input name="b_temperature"></input>
+        </p>
+
+        <P>
+        <label for="spo2">SpO2：</label>
+        <input name="spo2"></input>
+        </P>
+
+        <p>
+        <label for="height">身長(cm)：</label>
+        <input name="height"></input>
+        </p>
+
+        <p>
+        <label for="weight">体重(kg)：</label>
+        <input name="weight"></input>
+        </p>
+
+        <p><input type="submit" value="送信"></p>
+    </form>
+</body>
+</html>
